@@ -1,0 +1,15 @@
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\bin\Debug\net6.0\NamedPipeCsClient.exe
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\bin\Debug\net6.0\NamedPipeCsClient.deps.json
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\bin\Debug\net6.0\NamedPipeCsClient.runtimeconfig.json
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\bin\Debug\net6.0\NamedPipeCsClient.dll
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\bin\Debug\net6.0\NamedPipeCsClient.pdb
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\obj\Debug\net6.0\NamedPipeCsClient.csproj.AssemblyReference.cache
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\obj\Debug\net6.0\NamedPipeCsClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\obj\Debug\net6.0\NamedPipeCsClient.AssemblyInfoInputs.cache
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\obj\Debug\net6.0\NamedPipeCsClient.AssemblyInfo.cs
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\obj\Debug\net6.0\NamedPipeCsClient.csproj.CoreCompileInputs.cache
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\obj\Debug\net6.0\NamedPipeCsClient.dll
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\obj\Debug\net6.0\refint\NamedPipeCsClient.dll
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\obj\Debug\net6.0\NamedPipeCsClient.pdb
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\obj\Debug\net6.0\NamedPipeCsClient.genruntimeconfig.cache
+D:\2023-spring\Project\NamedPipe\C#\NamedPipeCsClient\NamedPipeCsClient\obj\Debug\net6.0\ref\NamedPipeCsClient.dll

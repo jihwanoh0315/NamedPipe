@@ -12,6 +12,7 @@ VOID GetAnswerToRequest(LPTSTR, LPTSTR, LPDWORD);
 
 int main(void)
 {
+	printf("----------THIS IS CPP SERVER-----------------------------\n");
 	bool fConnected = false;
 	DWORD dwThreadID = 0;
 	HANDLE hPipe = INVALID_HANDLE_VALUE, hThread = NULL;
@@ -145,6 +146,7 @@ DWORD WINAPI InstanceThread(LPVOID lpvParam_)
 
 	hPipe = (HANDLE)lpvParam_;
 
+
 	// Loop until done reading
 	while (1)
 	{
@@ -214,12 +216,39 @@ VOID GetAnswerToRequest(LPTSTR pchRequest,
 	_tprintf(TEXT("Client Request String:\"%s\"\n"), pchRequest);
 
 	// Check the outgoing message to make sure it's not too long for the buffer.
-	if (FAILED(StringCchCopy(pchReply, BUFSIZE, TEXT("default answer from server"))))
+	if (FAILED(StringCchCopy(pchReply, BUFSIZE, TEXT(""))))
 	{
 		*pchBytes = 0;
 		pchReply[0] = 0;
 		printf("StringCchCopy failed, no outgoing message.\n");
 		return;
 	}
+	_tprintf(TEXT("Write :\"%s\"\n"), pchReply);
+
 	*pchBytes = (lstrlen(pchReply) + 1) * sizeof(TCHAR);
 }
+//
+//VOID WriteString(LPTSTR pchRequest,
+//	LPTSTR pchReply,
+//	LPDWORD pchBytes,
+//	LPDWORD toWrite)
+//	// This routine is a simple function to print the client request to the console
+//	// and populate the reply buffer with a default data string. This is where you
+//	// would put the actual client request processing code that runs in the context
+//	// of an instance thread. Keep in mind the main thread will continue to wait for
+//	// and receive other client connections while the instance thread is working.
+//{
+//	_tprintf(TEXT("Client Request String:\"%s\"\n"), pchRequest);
+//
+//	// Check the outgoing message to make sure it's not too long for the buffer.
+//	if (FAILED(StringCchCopy(pchReply, BUFSIZE, TEXT( the one true server!"))))
+//	{
+//		*pchBytes = 0;
+//		pchReply[0] = 0;
+//		printf("StringCchCopy failed, no outgoing message.\n");
+//		return;
+//	}
+//	_tprintf(TEXT("Write :\"%s\"\n"), pchReply);
+//
+//	*pchBytes = (lstrlen(pchReply) + 1) * sizeof(TCHAR);
+//}
